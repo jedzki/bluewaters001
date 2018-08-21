@@ -1,15 +1,16 @@
-﻿# Cordova tools and plugins.
-node_modules/
+*.class
 
-# Application builds.
-bin/
-cordova/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Keys.
-keys/
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# Vim.
-*.sw*
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
-# OSX.
-.DS_Store
+out/
+
+\.idea/
